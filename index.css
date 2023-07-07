@@ -1,0 +1,14 @@
+html, body {
+  margin: 0; 
+  padding: 0; 
+  background-color: yellowgreen;
+  color: blueviolet;
+  user-select: none;
+}
+
+.container{
+  display: flex; 
+  flex-direction: column;
+  max-width: 320px;
+  margin: 25px auto;
+}
