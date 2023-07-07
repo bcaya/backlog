@@ -1,8 +1,8 @@
 html, body {
   margin: 0; 
   padding: 0; 
-  background-color: yellowgreen;
-  color: blueviolet;
+  background-color: #ffcfc4;
+  color: #718600;
   user-select: none;
 }
 
@@ -30,10 +30,12 @@ button{
   border-radius: 8px;
   font-size: 20px;
   text-align: center;
+  background-color:#718600;
+  color:#ffcfc4;
 }
 
 button:hover {
-  background-color:aqua;
+  background-color:#008aa1;
   cursor: pointer;
 }
 
@@ -51,5 +53,11 @@ ul li{
   border-radius: 8px;
   flex-grow:1;
   text-align:center;
-  
+  box-shadow: 0px 1px 4px rgba(175, 4, 4, 0.2);
+  background-color: #a6ff47;
+}
+
+ul li:hover {
+  background-color: antiquewhite;
+  cursor:pointer;
 }
